@@ -12,7 +12,7 @@ function generateMarkdown(response) {
   7 [Questions] (#questions)
 
   # Description
-  ${response.motivation} ${response.reason} ${response.solution} ${response.learnings} ${reponse.uniquness}
+  ${response.motivation} ${response.reason} ${response.solution} ${response.learnings} ${response.uniquness}
   ${response.features}
 
   ## Installation

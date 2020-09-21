@@ -82,7 +82,7 @@ console.log("responses collected!");
     
 inquirer.prompt(questions)
 .then(function(response){
-    fs.writeFile("ReadME.md", JSON.stringify(response),
+    fs.writeFile("ReadME.md", generateMD(response),
     function(err) {
         if (err) {
             return console.log(err);
