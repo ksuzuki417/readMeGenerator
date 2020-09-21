@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const util = require("util");
 
 // array of questions for user
 const questions = [
@@ -74,24 +75,36 @@ const questions = [
         name: "license",
     },
 ];
+console.log("responses collected!");
 
-inquirer.prompt(questions)
-.then(function(response){
-    fs.writeFile("ReadME.md", JSON.stringify(response),
-    function(err) {
-        if (err) {
-            return console.log(err);
-        }
+//function promptUser() {
+    //return inquirer.prompt(questions)};
+//.then(function(response){
+    //fs.writeFile("ReadME.md", JSON.stringify(response),
+    //function(err) {
+        //if (err) {
+            //return console.log(err);
+        //}
 
-        console.log("Successfully created!")
-    });
-})
+        //console.log("Successfully created!")
+    //});
+//})
 // function to write README file
-//function writeToFile(fileName, data) {
+function writeToFile("ReadME.md", response, function(err) {
+    if (err) {
+        return console.log(err);
+    }
+    console.log("ReadME created!");    
+});
 //}
 
 // function to initialize program
 function init() {
+    return inquirer.prompt(questions)
+    .catch(function (err){
+        console.log(err)
+        
+    });
 
 }
 
