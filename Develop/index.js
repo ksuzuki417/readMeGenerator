@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+const generateMD = require("./utils/generateMarkdown.js")
 
 // array of questions for user
 const questions = [
@@ -9,11 +10,11 @@ const questions = [
         message: "What is the title of your project?",
         name: "title",
     },
-    {
-        type: "input",
-        message: "Please write a short description of your project. Be sure to explain what, why and how.",
-        name: "description",
-    },
+    //{
+        //type: "input",
+        //message: "Please write a short description of your project. Be sure to explain what, why and how.",
+        //name: "description",
+    //},
     {
         type: "input",
         message: "What was your motivation?",
@@ -77,36 +78,37 @@ const questions = [
 ];
 console.log("responses collected!");
 
-//function promptUser() {
-    //return inquirer.prompt(questions)};
-//.then(function(response){
-    //fs.writeFile("ReadME.md", JSON.stringify(response),
-    //function(err) {
-        //if (err) {
-            //return console.log(err);
-        //}
 
-        //console.log("Successfully created!")
-    //});
-//})
+    
+inquirer.prompt(questions)
+.then(function(response){
+    fs.writeFile("ReadME.md", JSON.stringify(response),
+    function(err) {
+        if (err) {
+            return console.log(err);
+        }
+
+        console.log("Successfully created!")
+    });
+})
 // function to write README file
-function writeToFile("ReadME.md", response, function(err) {
-    if (err) {
-        return console.log(err);
-    }
-    console.log("ReadME created!");    
-});
+//function writeToFile("ReadME.md", response, function(err) {
+    //if (err) {
+        //return console.log(err);
+    //}
+    //console.log("ReadME created!");    
+//});
 //}
 
 // function to initialize program
 function init() {
-    return inquirer.prompt(questions)
-    .catch(function (err){
-        console.log(err)
+    //return inquirer.prompt(questions)
+    //.catch(function (err){
+        //console.log(err)
         
-    });
+};
 
-}
+//}
 
 // function call to initialize program
 init();
