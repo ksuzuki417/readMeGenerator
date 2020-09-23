@@ -62,6 +62,11 @@ const questions = [
     },
     {
         type: "input",
+        message: "Please attach a link to your demo",
+        name: "demoLink",
+    },
+    {
+        type: "input",
         message: "Please list your collaborators, if any, with links to their GitHub profiles.",
         name: "collaborators",
     },

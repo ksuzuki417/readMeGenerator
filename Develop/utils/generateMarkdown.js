@@ -28,7 +28,7 @@ function generateMarkdown(response) {
   ${response.collaborators}
 
   ## Tests
-  ${response.screenshots}
+  ${response.screenshots} \n [Click Here for a Demo](${response.demoLink})
 
   ## Questions
   GitHub Profile: https://github.com/${response.gitHub}\n
