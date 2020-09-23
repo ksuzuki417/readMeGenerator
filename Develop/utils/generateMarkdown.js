@@ -3,34 +3,34 @@ function generateMarkdown(response) {
   return `# ${response.title}
 
   ## Table of Contents
-  # [1. Description](#Description)
-  # [2. Installation](##Installation)
-  # [3. Usage](##Usage)
-  # [4. License](#License)
-  # [5. Contributors](##Contributors)
-  # [6. Tests](##Tests)
-  # [7. Questions](##Questions)
+  ## [1. Description](#Description)
+  ## [2. Installation](##Installation)
+  ## [3. Usage](##Usage)
+  ## [4. License](#License)
+  ## [5. Contributors](##Contributors)
+  ## [6. Tests](##Tests)
+  ## [7. Questions](##Questions)
 
-  #Description \n
+  ## Description \n
   ${response.motivation} ${response.reason} ${response.solution} ${response.learnings} ${response.uniqueness}
   ${response.features}
 
-  ##Installation 
+  ## Installation 
   ${response.installation}
 
-  ##Usage
+  ## Usage
   ${response.usage}
 
-  ##License
+  ## License
   ${response.license}
 
-  ##Contributors
+  ## Contributors
   ${response.collaborators}
 
-  ##Tests
+  ## Tests
   ${response.screenshots}
 
-  ##Questions (##Questions)
+  ## Questions (##Questions)
   GitHub Profile: https://github.com/${response.gitHub}\n
   For additional information, please reach out to me at ${response.email}.
 `;
