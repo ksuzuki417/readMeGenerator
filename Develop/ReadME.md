@@ -26,7 +26,7 @@
   
 
   ## Tests
-  <img src="/ReadME Generator Demo.mp4" width="150">
+  <img src="/readmeGeneratorDemo.mp4" width="200">
 
   ## Questions
   GitHub Profile: https://github.com/
