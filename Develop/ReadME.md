@@ -17,10 +17,10 @@
   This is a CLI application. You will need to save this file in order to use it.
 
   ##Usage
-  Simply, answer the questions one by one when you are ready to create a ReadME file. When you complete the questions, it will create a ReadME file automatically.
+  Simply, answer the questions one by one when you are ready to create a ReadME file. When you complete the questions, it will create a ReadME file dynamically.
 
   ##License
-  None
+  Apache License 2.0
 
   ##Contributors
   Self project
@@ -30,4 +30,5 @@
 
   ##Questions (##Questions)
   GitHub Profile: https://github.com/ksuzuki417
+
   For additional information, please reach out to me at ksuzuki417@gmail.com.
