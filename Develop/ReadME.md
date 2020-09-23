@@ -19,7 +19,7 @@
   ## Usage
   Simply, run node index.js and answer the questions one by one when you are ready to create a ReadME file. When you complete answering the questions, a ReadME is created dynamically! 
 
-  <img src="/ReadMeGeneratorDemo.gif"> 
+  <img src="/Develop/ReadMeGeneratorDemo.gif"> 
  
   [Click Here for a Demo](https://drive.google.com/file/d/1lEF7TRYVHp4whmALUHlCW6LdnPFhN1_Y/view)
 
