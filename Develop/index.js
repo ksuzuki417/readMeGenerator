@@ -71,6 +71,11 @@ const questions = [
         name: "collaborators",
     },
     {
+        type: "input",
+        message: "If you have a test created, provide an example here",
+        name: "test",
+    },
+    {
         type: "list",
         message: "Please choose the appropriate license from the list",
         choices: ["None", "Apache2.0", "GNU-v3.0", 

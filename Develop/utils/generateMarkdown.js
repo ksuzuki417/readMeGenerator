@@ -30,7 +30,7 @@ function generateMarkdown(response) {
   ${response.collaborators}
 
   ## Tests
-  
+  ${response.test}
 
   ## Questions
   GitHub Profile: https://github.com/${response.gitHub}\n
