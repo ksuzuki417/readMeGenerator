@@ -68,11 +68,11 @@ const questions = [
     {
         type: "list",
         message: "Please choose the appropriate license from the list",
-        choices: ["None", "Apache License 2.0", "GNU General Public License v3.0", 
-        "MIT License", "BSD 2-Clause", "BSD 3-Clause", "Boost Software License", 
-        "Creative Commons Zero", "Eclipse Public License", "GNU Affero General Public License", 
-        "GNU General Public License", "GNU Lesser Public License", "Mozilla Public License", 
-        "The UnLicense"],
+        choices: ["None", "Apache2.0", "GNU-v3.0", 
+        "MIT", "BSD-2-Clause", "BSD-3-Clause", "Boost-Software", 
+        "CreativeCommonsZero", "EclipsePublicLicense", "GNU-AfferoGeneralPublicLicense", 
+        "GNU-GeneralPublicLicense", "GNU-LesserPublicLicense", "MozillaPublicLicense", 
+        "TheUnLicense"],
         name: "license",
     },
     {
