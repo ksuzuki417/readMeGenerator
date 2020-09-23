@@ -19,7 +19,9 @@ function generateMarkdown(response) {
   ${response.installation}
 
   ## Usage
-  ${response.usage}
+  ${response.usage} \n
+  ${response.screenshots} \n 
+  [Click Here for a Demo](${response.demoLink})
 
   ## License
   ${response.license}
@@ -28,7 +30,7 @@ function generateMarkdown(response) {
   ${response.collaborators}
 
   ## Tests
-  ${response.screenshots} \n [Click Here for a Demo](${response.demoLink})
+  
 
   ## Questions
   GitHub Profile: https://github.com/${response.gitHub}\n
