@@ -19,7 +19,7 @@
   ## Usage
   Simply, run node index.js and answer the questions one by one when you are ready to create a ReadME file. When you complete answering the questions, a ReadME MD is created dynamically! 
 
-  <iframe src="https://drive.google.com/file/d/1lEF7TRYVHp4whmALUHlCW6LdnPFhN1_Y/preview" width="320"></iframe> 
+  <img src="/ReadMeGeneratorDemo.gif"/> 
  
   [Click Here for a Demo](https://drive.google.com/file/d/1lEF7TRYVHp4whmALUHlCW6LdnPFhN1_Y/view)
 
@@ -30,7 +30,7 @@
   Self Project
 
   ## Tests
-  
+  N/A
 
   ## Questions
   GitHub Profile: https://github.com/ksuzuki417
