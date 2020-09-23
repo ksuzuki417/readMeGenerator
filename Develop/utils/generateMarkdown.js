@@ -31,10 +31,8 @@ function generateMarkdown(response) {
   ${response.screenshots}
 
   ##Questions (##Questions)
-
-  
-
-  
+  GitHub Profile: https://github.com/${response.gitHub}
+  For additional information, please reach out to me at ${response.email}.
 `;
 }
 

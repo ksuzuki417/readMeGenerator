@@ -75,9 +75,17 @@ const questions = [
         "The UnLicense"],
         name: "license",
     },
+    {
+        type: "input",
+        message: "Please enter your GitHub username",
+        name: "gitHub",
+    },
+    {
+        type: "input",
+        message: "Please enter your email address",
+        name: "email",
+    },
 ];
-console.log("responses collected!");
-
 
     
 inquirer.prompt(questions)
@@ -87,7 +95,6 @@ inquirer.prompt(questions)
         if (err) {
             return console.log(err);
         }
-
         console.log("Successfully created!")
     });
 })
