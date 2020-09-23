@@ -3,32 +3,38 @@ function generateMarkdown(response) {
   return `# ${response.title}
 
   ## Table of Contents
-  1 [Description] (#description)
-  2 [Installation] (#installation)
-  3 [Usage] (#usage)
-  4 [License] (#license)
-  5 [Contributors] (#contributors)
-  6 [Tests] (#tests)
-  7 [Questions] (#questions)
+  #1 [Description] (#Description)
+  #2 [Installation] (##Installation)
+  #3 [Usage] (##Usage)
+  #4 [License] (#License)
+  #5 [Contributors] (##Contributors)
+  #6 [Tests] (##Tests)
+  #7 [Questions] (##Questions)
 
-  # Description
-  ${response.motivation} ${response.reason} ${response.solution} ${response.learnings} ${response.uniquness}
+  #Description
+  ${response.motivation} ${response.reason} ${response.solution} ${response.learnings} ${response.uniqueness}
   ${response.features}
 
-  ## Installation
+  ##Installation
   ${response.installation}
 
-  ## Usage
+  ##Usage
   ${response.usage}
 
-  ## Screenshots
-  ${response.screenshots}
+  ##License
+  ${response.license}
 
-  ## Contributors
+  ##Contributors
   ${response.collaborators}
 
-  ## License
-  ${response.license}
+  ##Tests
+  ${response.screenshots}
+
+  ##Questions (##Questions)
+
+  
+
+  
 `;
 }
 
