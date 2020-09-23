@@ -1,4 +1,4 @@
-# readme generator ![License](https://img.shields.io/badge/License-MIT-blue)
+# test ![License](https://img.shields.io/badge/License-None-blue)
 
   ### Table of Contents
   ### [1. Description](#Description)
@@ -20,13 +20,13 @@
   test
 
   ## License
-  MIT
+  None
 
   ## Contributors
-  me
+  
 
   ## Tests
-  ![](/ReadME%20Generator%20Demo.mp4)
+  <img src="/ReadME Generator Demo.mp4" width="150">
 
   ## Questions
   GitHub Profile: https://github.com/
